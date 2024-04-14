@@ -10,8 +10,8 @@ tags: cloudformation, introduction, cloud, blogging, aws, azure, cloud-computing
 
 # Introduction to the AWS Cloud Formation?
 
-AWS CloudFormation is an Infrastructure as a Code (IaC) solution for managing and deploying AWS resources that is offered by Amazon Web Services (AWS). It lets you design your infrastructure using declarative template syntax, which makes it possible to automate AWS resource creation, updating, and deletion in a scalable and predictable way. With the use of a technology called AWS CloudFormation, you can manage your AWS resources more efficiently and concentrate more on your AWS-powered apps by modeling and configuring your resources more effectively.  
-  
+AWS CloudFormation is an Infrastructure as a Code (IaC) solution for managing and deploying AWS resources that is offered by Amazon Web Services (AWS). It lets you design your infrastructure using declarative template syntax, which makes it possible to automate AWS resource creation, updating, and deletion in a scalable and predictable way. With the use of a technology called AWS CloudFormation, you can manage your AWS resources more efficiently and concentrate more on your AWS-powered apps by modeling and configuring your resources more effectively.
+
 AWS resources (such as Amazon EC2 instances and Amazon RDS DB instances) may be specified in a template that you design, and CloudFormation handles the provisioning and configuration of those resources on your behalf. The Cloud Formation takes care of the dependency analysis and resource creation, saving you the trouble of creating and configuring AWS resources one by one.
 
 An essential component of the Amazon Web Services (AWS) ecosystem, AWS CloudFormation offers a strong foundation for using the potential of Infrastructure as Code (IaC) to automate infrastructure management. At its heart, the Cloud Formation transforms infrastructure management, scaling, and maintenance by enabling users to specify and provide AWS resources in a declarative template style.
@@ -20,11 +20,11 @@ The generation of templates, which are JSON or YAML files that define the AWS re
 
 By using the stacks idea, the CloudFormation also encourages excellent practices in infrastructure management. A stack is an assembly of AWS resources that are provided and managed collectively as a single entity, enabling the controlled and organized construction, updating, and deletion of whole environments. Stacks make it easier to manage resource lifecycles by allowing users to revert to earlier settings in the event that updates fail or include problems.
 
-The Fundamentals of AWS CloudFormation consists of Templates and stacks are used in AWS CloudFormation. The attributes of your AWS resources are described in templates that you build. The CloudFormation supplies the resources specified in your template each time you construct a stack.  
+The Fundamentals of AWS CloudFormation consists of Templates and stacks are used in AWS CloudFormation. The attributes of your AWS resources are described in templates that you build. The CloudFormation supplies the resources specified in your template each time you construct a stack.
 
 ---
 
-## What is the concept of Infrastructure as Code (IaC)?
+## Concept of Infrastructure as Code (IaC)?
 
 The Infrastructure as a Code (IaC) involves the defining of various infrastructure elements such as virtual machines, networks, storage, and configurations by using code, which can be written in the declarative programming language. This code can be stored in version control systems (VCS) like Git, which will allow the teams to do collaboration, track various changes, and roll back to previous versions if necessary. By using Infrastructure as a Code (IaC) for writing the infrastructure, the organizations or the individuals can automate the provisioning and management of various resources, by reducing the risk of errors.
 
@@ -87,7 +87,7 @@ Some key concepts of AWS CloudFormation are as follows:
     
 4. Changing of sets: One of CloudFormation's features, change sets let you see suggested modifications before you apply them to a stack. CloudFormation generates a change set that highlights the variations between the suggested modifications and the stack's current configuration when you upgrade a stack. After reviewing the adjustments, you may implement or remove them as necessary.
     
-5. Customizable Resources: By incorporating outside logic or resources into your templates, custom resources let you increase the capabilities of CloudFormation. AWS Lambda functions, which may carry out operations beyond the purview of regular CloudFormation resources like contacting third-party APIs or carrying out unique business logic, can be used to construct bespoke resources.  
+5. Customizable Resources: By incorporating outside logic or resources into your templates, custom resources let you increase the capabilities of CloudFormation. AWS Lambda functions, which may carry out operations beyond the purview of regular CloudFormation resources like contacting third-party APIs or carrying out unique business logic, can be used to construct bespoke resources.
     
 
 ---
