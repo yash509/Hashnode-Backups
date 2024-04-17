@@ -1,5 +1,5 @@
 ---
-title: "Monolithic Architecture VS Microservices Architecture"
+title: "Monolithic Architecture V/S Microservices Architecture"
 datePublished: Wed Apr 17 2024 15:32:22 GMT+0000 (Coordinated Universal Time)
 cuid: clv3z19g8000b08jjh92w2aia
 slug: monolithic-architecture-vs-microservices-architecture
